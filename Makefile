@@ -4,6 +4,9 @@ up:
 in:
 	docker exec -it psql bash
 
+logs: 
+	docker logs psql
+
 stop: 
 	docker stop psql
 	docker rm psql
